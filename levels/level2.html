@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Задачи</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/zad.css">
+	<link rel="stylesheet" type="text/css" href="../css/mytext.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div id="basic">
+<em style="color: ; font-size: 32px;">2-й уровень</em>
+<p style="font-size: 250%; margin-top: 10px; bottom: 30px;">Прямоугольный треугольник – это…</p><p style="font-size: 20px;">а)треугольник, который содержит в себе прямой угол, т.е. угол в 90 градусов<br>б)Треугольник, у которого все углы прямые<br>в)Треугольник с двумя углами по 90 градусов<br>г)нет верного ответа
+</p>
+
+ <!--задача номер 1-->
+ <div id="zad1">
+    <input class="nom1" type="submit" value="а" name="а" style="color: green; font-size: 300%" 
+      onclick="document.getElementById('mytext1').innerHTML='Правильно! + 6 балла';">
+
+    <input class="nom1" type="submit" value="б" name="б" style="color: green; font-size: 300%" 
+  onclick="document.getElementById('mytext2').innerHTML ='Неправильно - 3';">
+
+    <input class="nom1" type="submit" value="в" name="в" style="color: green; font-size: 300%" 
+      onclick="document.getElementById('mytext1').innerHTML='Неправильно - 3';">
+
+    <input class="nom1" type="submit" value="г" name="г" style="color: green; font-size: 300%" 
+  onclick="document.getElementById('mytext2').innerHTML ='Неправильно - 3';">
+
+<div id="mytext1"></div>
+<div id="mytext2"></div>
+         </div>
+     <!--/задача номер 1-->
+
+
+     <!--задача номер 2-->
+     
+ <div id="zad2">
+ 	<p style="font-size: 250%; margin-top: 10px; bottom: 30px;">Как называют стороны прямоугольного треугольника?</p><p style="font-size: 19px;">а)Боковые стороны<br>б)Катеты<br>в)Нет верного ответа<br>г)Оба ответа верны
+  </p>
+        <input class="nom1"  type="submit" value="а" name="а" style="color: green; font-size: 300%" 
+      onclick="document.getElementById('mytext3').innerHTML ='Неправильно -4 баллов';">
+
+        <input class="nom1"  type="submit" value="б" name="б" style="color: green; font-size: 300%" 
+          onclick="document.getElementById('mytext4').innerHTML='Правильно! + 6 баллов';">
+
+        <input class="nom1"  type="submit" value="в" name="в" style="color: green; font-size: 300%" 
+      onclick="document.getElementById('mytext3').innerHTML ='Неправильно -4 баллов';">
+
+        <input class="nom1"  type="submit" value="г" name="г" style="color: green; font-size: 300%" 
+          onclick="document.getElementById('mytext4').innerHTML='Неправильно -4 баллов';">
+      
+
+<div id="mytext3"></div>
+<div id="mytext4"></div>
+</div> 
+    <!--/задача номер 2-->
+<form action="levels/level2" target="_blank">
+    <button style="font-size: 200%; margin-top: 10% ;" type="submit" >Следующий уровень</button>
+</form>
+        
+</body>
+</html>
